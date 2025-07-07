@@ -1,17 +1,35 @@
-<<<<<<< HEAD
-# React + Vite
+## Michi (Tic Tac Toe) en React
+Este proyecto es una implementación interactiva del clásico juego Michi (también conocido como Tic Tac Toe) desarrollada con React. Fue creado como parte de mi proceso de aprendizaje para familiarizarme con los conceptos fundamentales de esta biblioteca, como el manejo de componentes, estado (useState) y renderizado condicional.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Características principales:
+Interfaz intuitiva: Tablero 3x3 con diseño limpio y responsivo.
 
-Currently, two official plugins are available:
+Turnos alternados: Los jugadores X y O se turnan automáticamente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Detección de ganador: El juego identifica cuándo hay un ganador o si hay un empate.
 
-## Expanding the ESLint configuration
+Reinicio del juego: Botón para reiniciar la partida y jugar de nuevo.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# juego-michi
-practicando juego react haciendo juego del michi (tic tac toe, o tres en raya)
->>>>>>> dc0d39f187d6d436677815711f854473b92bec75
+Código modular: Componentes reutilizables y lógica separada para mantener el código limpio y escalable.
+
+## Tecnologías utilizadas:
+React (con hooks)
+
+HTML/CSS
+
+JavaScript (ES6+)
+
+## Lo que aprendí:
+Cómo estructurar una aplicación React desde cero.
+
+Manejo del estado y eventos en componentes funcionales.
+
+Buenas prácticas para separar lógica y presentación.
+
+Cómo pensar en componentes reutilizables y escalables.
+
+ X | O | X 
+-----------
+ O | X | O  
+-----------
+ X | O | X 
