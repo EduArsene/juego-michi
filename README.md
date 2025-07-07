@@ -32,4 +32,4 @@ Cómo pensar en componentes reutilizables y escalables.
 -----------
  O | X | O  
 -----------
- X | O | X 
+ O | X | O  
